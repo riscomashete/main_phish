@@ -3,59 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Risco L Mashete</title>
-    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Risco Mashete</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+<!--Navbar starts here-->
+<nav>
+        
+    <ul class="sidebar">
+        <li onclick=hideSidebar()><i class="fa fa fa-close" aria-hidden="true" style="font-size: 25px; padding: 15px; cursor: pointer;"></i></li>
+        <li><a href="index.html" class="current">Home</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
 
-    <nav>
-        <ul><li><div class="brand-title">Risco Mashete</div></li></ul>
-        <ul class="home current"><a href="index.html"><li>Home</li></a></ul>
-        <ul><a href="skills.html"><li>Skills</li></a></ul>
-        <ul><a href="about.html"><li>About</li></a></ul>
-    </nav>
+    <ul>
+        <li class="brand-title">Risco Mashete</li>
+        <li class="hideOnMobile"><a href="index.html"  class="current">Home</a></li>
+        <li class="hideOnMobile"><a href="skills.html">Skills</a></li>
+        <li class="hideOnMobile"><a href="about.html">About</a></li>
+        <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+        <li class="menu-button" onclick=showSidebar()><a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a></li>
+    </ul>
+</nav>
+<!--Navbar ends here-->
 
-    <div class="intro">
-        <h1>Front-End Web Dev Beginner and hacker</h1><br>
-        <p>Hello👋 I'm Risco, welcome to my portfolio.</p>
-    </div>
+<div class="intro">
+    <h1 id="heading">Front-End Web Dev Beginner</h1><br>
+    <p id="hello">Hello👋 I'm Risco, welcome to my portfolio.</p>
+</div>
 
-    <div class="skills">
-        <a href="#"><i class="fab fab fab fa-html5" id="html"></i></a>
-        <a href="#"><i class="fab fab fab fa-css3" id="css"></i></a>
-        <a href="#"><i class="fab fab fab fa-js" id="js"></i></a>
-    </div>
-    
+<div class="skills">
+    <a href="#"><img src="/images/html.png" alt="html images" id="html"></a>
+    <a href="#"><img src="/images/css.webp" alt="html images" id="css"></a>
+    <a href="#"><img src="/images/js.webp" alt="html images" id="js"></a>
+</div>
+
 <img src="/images/CV.jpg" alt="icon" id="risco">
 
 
-<footer>
-    <div class="social">
-        <a href="#"><i class="fab fab fa-whatsapp"></i></a>
-        <a href="#"><i class="fab fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fab fa-github"></i></a>
-        <a href="#"><i class="fab fab fa-telegram"></i></a>
-        <a href="#"><i class="fab fab fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fab fab fa-linkedin"></i></a>
-        <a href="#"><i class="fab fab fab fab fab fa-snapchat"></i></a>
-    </div>
 
-<ul>
-    <a href="#"><li>Home</li></a>
-    <a href="#"><li>Services</li></a>
-    <a href="#"><li>Privacy Policy</li></a>
-    <a href="#"><li>Ts & Cs</li></a>
-    <a href="#"><li>About</li></a>
-
+<!--Footer starts here-->
+    <footer>
+        <div class="social">
+            <a href="#"><i class="fab fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fab fa-github"></i></a>
+            <a href="#"><i class="fab fab fa-telegram"></i></a>
+            <a href="#"><i class="fab fab fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fab fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fab fab fab fab fa-snapchat"></i></a>
+        </div>
     
+    <ul>
+        <a href="#"><li>Home</li></a>
+        <a href="#"><li>Privacy Policy</li></a>
+        <a href="#"><li>Ts & Cs</li></a>
+        <a href="#"><li>About</li></a>
+    
+        
+    
+    </ul>
+    
+    <p class="copyright">Risco Mashete &copy 2024</p>
+    
+    </footer>
+<!--Footer ends here-->
 
-</ul>
-
-<p class="copyright">Risco Mashete &copy 2024</p>
-
-</footer>
-
+    <script src="main.js"></script>
 </body>
 </html>
