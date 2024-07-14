@@ -3,70 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>My Skills</title>
-    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-
     <nav>
-        <ul><li><div class="brand-title">Risco Mashete</div></li></ul>
-        <ul class="home"><a href="index.html"><li>Home</li></a></ul>
-        <ul class="current"><a href="skills.html"><li>Skills</li></a></ul>
-        <ul><a href="about.html"><li>About</li></a></ul>
+        
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><i class="fa fa fa-close" aria-hidden="true" style="font-size: 25px; padding: 15px; cursor: pointer;"></i></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skills.html"  class="current">Skills</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <ul>
+            <li class="brand-title">Risco Mashete</li>
+            <li class="hideOnMobile"><a href="index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="skills.html" class="current">Skills</a></li>
+            <li class="hideOnMobile"><a href="about.html">About</a></li>
+            <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a></li>
+        </ul>
     </nav>
-<br>
-    
-<div class="skills-section">
-    <div class="skill">
-        <img src="/images/html.png" alt="HTML logo" class="skill-image" width="100">
-        <div class="skill-name">HTML</div>
+
+    <h2 id="skills-heading">My skills</h2>
+
+    <div class="wrapper">
+        <div class="box">      
+        <h2>HTML 5</h2>
+        <p><!--I possess a high level of proficiency in HTML, with an expertise level of 80%. This enables me to create well-structured and semantic web content that is easily understood by both users and search engines. I am skilled in writing clean and efficient HTML code, ensuring that websites are accessible, responsive, and optimized for performance. My expertise in HTML allows me to effectively organize information, incorporate multimedia elements, and create a solid foundation for building engaging web experiences.-->
+
+            I have a solid understanding of HTML, with an expertise level of 80%. I am proficient in creating well-structured and semantic markup to build the foundation of websites
+        </p>
+        <img src="/images/html.png" alt="image">
         <div class="skill-bar">
             <div class="skill-progress" style="width: 80%;">80%</div>
         </div>
-    </div>
-    <div class="skill">
-        <img src="/images/css.webp" alt="CSS logo" class="skill-image" width="80">
-        <div class="skill-name">CSS</div>
-        <div class="skill-bar">
-            <div class="skill-progress" style="width: 65%;">65%</div>
         </div>
-    </div>
-    <div class="skill">
-        <img src="/images/js.webp" alt="JAVASCRIPT logo" class="skill-image" width="100">
-        <div class="skill-name">JavaScript</div>
+
+        <div class="box">      
+        <h2>CSS 3</h2>
+        <p><!--With a proficiency level of 70% in CSS, I excel at styling and designing websites to enhance their visual appeal and user experience. I have a strong understanding of CSS properties, selectors, and layout techniques, allowing me to create modern and responsive designs that adapt seamlessly to different screen sizes and devices. My expertise in CSS enables me to customize the look and feel of websites, implement animations and transitions, and ensure consistency across web pages. I strive to create aesthetically pleasing and user-friendly interfaces by leveraging my CSS skills to bring designs to life.-->
+
+            I have a proficiency level of 70% in CSS, allowing me to style and design websites effectively. I can create visually appealing layouts, and implement responsive design.
+        </p>
+        <img src="/images/css.webp" alt="image">
+        <div class="skill-bar">
+            <div class="skill-progress" style="width: 70%;">70%</div>
+        </div>
+        </div>
+
+        <div class="box">      
+        <h2>JavaScript</h2>
+        <p><!--While my proficiency in JavaScript is at 35%, I am continuously expanding my knowledge and skills in this dynamic programming language. I am capable of implementing basic functionality, interactivity, and user engagement using JavaScript. With a solid understanding of core concepts such as variables, functions, and control structures, I can create simple scripts and interactive elements to enhance the user experience on websites. I am committed to further developing my JavaScript skills to incorporate more advanced features, improve performance, and create dynamic web applications that deliver value to users.-->
+
+            While my expertise in JavaScript is at 35%, I am continuously expanding my knowledge and skills in this area. I can create interactive elements on websites, handle events, and manipulate the DOM to enhance functionality.
+        </p>
+        <img src="/images/js.webp" alt="image">
         <div class="skill-bar">
             <div class="skill-progress" style="width: 35%;">35%</div>
         </div>
-    </div>
-</div>
-
-<footer>
-    <div class="social">
-        <a href="#"><i class="fab fab fa-whatsapp"></i></a>
-        <a href="#"><i class="fab fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fab fa-github"></i></a>
-        <a href="#"><i class="fab fab fa-telegram"></i></a>
-        <a href="#"><i class="fab fab fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fab fab fa-linkedin"></i></a>
-        <a href="#"><i class="fab fab fab fab fab fa-snapchat"></i></a>
+        </div>
     </div>
 
-<ul>
-    <a href="#"><li>Home</li></a>
-    <a href="#"><li>Services</li></a>
-    <a href="#"><li>Privacy Policy</li></a>
-    <a href="#"><li>Ts & Cs</li></a>
-    <a href="#"><li>About</li></a>
-
+    <footer>
+        <div class="social">
+            <a href="#"><i class="fab fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fab fa-github"></i></a>
+            <a href="#"><i class="fab fab fa-telegram"></i></a>
+            <a href="#"><i class="fab fab fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fab fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fab fab fab fab fa-snapchat"></i></a>
+        </div>
     
+    <ul>
+        <a href="#"><li>Home</li></a>
+        <a href="#"><li>Privacy Policy</li></a>
+        <a href="#"><li>Ts & Cs</li></a>
+        <a href="#"><li>About</li></a>
+    
+        
+    
+    </ul>
+    
+    <p class="copyright">Risco Mashete &copy 2024</p>
+    
+    </footer>
 
-</ul>
-
-<p class="copyright">Risco Mashete &copy 2024</p>
-
-</footer>
-
+    <script src="main.js"></script>
 </body>
 </html>
