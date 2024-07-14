@@ -361,7 +361,7 @@ img {
 }
 
 /*Tablet*/
-@media (width <= 768px) {
+/*@media (width <= 768px) {
     body {
         background-color: green;
         font-size: 1rem;
@@ -571,7 +571,7 @@ img {
     text-align: center;
     margin-bottom: 10px;
 }
-}
+}*/
 
 @media (max-width: 500px) {
     .sidebar {
