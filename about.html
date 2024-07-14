@@ -3,59 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>About Me</title>
-    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-
     <nav>
-        <ul><li><div class="brand-title">Risco Mashete</div></li></ul>
-        <ul class="home"><a href="index.html"><li>Home</li></a></ul>
-        <ul><a href="skills.html"><li>Skills</li></a></ul>
-        <ul class="current"><a href="about.html"><li>About</li></a></ul>
+        
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><i class="fa fa fa-close" aria-hidden="true" style="font-size: 25px; padding: 15px; cursor: pointer;"></i></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="about.html"  class="current">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <ul>
+            <li class="brand-title">Risco Mashete</li>
+            <li class="hideOnMobile"><a href="index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="skills.html">Skills</a></li>
+            <li class="hideOnMobile"><a href="about.html" class="current">About</a></li>
+            <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a></li>
+        </ul>
     </nav>
 
     <div id="main">
         <div class="container">
-            <h1>Welcome to my About Page</h1>
+            <h1>Welcome to my profile!</h1>
             <div id="about">
                 <img src="/images/CV.jpg" alt="Risco Lumamezi Mashete">
                 <div>
-                    <h3>About me</h3>
-                    <p>My name is Risco Lumamezi Mashete, aged 20. I am a beginner in front-end web development with skills in HTML, CSS, and JavaScript. I am currently a second year student studying for a Bachelor of Education in Secondary Education Honors Level 8 (English & Silozi) at the University of Namibia (UNAM).</p><br>
+                    <p>I am a beginner in front-end web development with skills in HTML, CSS, and JavaScript. I am currently a second year student at the University of Namibia (UNAM), studying for a Bachelor of Education in Secondary Education Honors Level 8 (English & Silozi) .</p><br>
                     <p>I am passionate about education and technology, and I am always eager to learn more and grow in these fields. My goal is to combine my knowledge in education and my skills in web development to create educational tools that can help students learn more effectively.</p>
+                        <br>
+                        Overall, my skills in HTML, CSS, and JavaScript enable me to create engaging and user-friendly websites. I am passionate about web development and constantly strive to improve my skills to deliver high-quality projects.</p>
                 </div>
             </div>
         </div>
     </div>
 
-<footer>
-    <div class="social">
-        <a href="#"><i class="fab fab fa-whatsapp"></i></a>
-        <a href="#"><i class="fab fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fab fa-github"></i></a>
-        <a href="#"><i class="fab fab fa-telegram"></i></a>
-        <a href="#"><i class="fab fab fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fab fab fa-linkedin"></i></a>
-        <a href="#"><i class="fab fab fab fab fab fa-snapchat"></i></a>
-    </div>
-
-<ul>
-    <a href="#"><li>Home</li></a>
-    <a href="#"><li>Services</li></a>
-    <a href="#"><li>Privacy Policy</li></a>
-    <a href="#"><li>Ts & Cs</li></a>
-    <a href="#"><li>About</li></a>
-
+    <footer>
+        <div class="social">
+            <a href="#"><i class="fab fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fab fa-github"></i></a>
+            <a href="#"><i class="fab fab fa-telegram"></i></a>
+            <a href="#"><i class="fab fab fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fab fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fab fab fab fab fa-snapchat"></i></a>
+        </div>
     
+    <ul>
+        <a href="#"><li>Home</li></a>
+        <a href="#"><li>Privacy Policy</li></a>
+        <a href="#"><li>Ts & Cs</li></a>
+        <a href="#"><li>About</li></a>
+    
+        
+    
+    </ul>
+    
+    <p class="copyright">Risco Mashete &copy 2024</p>
+    
+    </footer>
 
-</ul>
-
-<p class="copyright">Risco Mashete &copy 2024</p>
-
-</footer>
-
+    <script src="main.js"></script>
 </body>
 </html>
