@@ -582,7 +582,6 @@ img {
 /*Mobile*/
 @media (width <= 425px) {
     body {
-        background-color: red;
         font-size: 0.9rem;
     }
 
@@ -697,7 +696,7 @@ img {
         padding-top: 5px;
         padding-bottom: 10px;
         border-radius: 20px;
-        margin-top: 10rem;
+        margin-top: 5rem;
     }
     
     form h1 {
