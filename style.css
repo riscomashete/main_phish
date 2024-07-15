@@ -577,10 +577,214 @@ img {
     .sidebar {
         width: 100%;
     }
+    
+    body {
+        background-color: red;
+        font-size: 1rem;
+    }
+
+    .sidebar a {
+        width: 13%;
+        margin-left: 11rem;
+    }
+    .intro {
+        margin-top: 1.5rem;
+        margin-left: 6%;
+        margin-right: 0%;
+    }
+    
+    #hello {
+        margin-top: 15rem;
+        margin-left: 3rem;
+    }
+    
+    #js {
+        width: 1.3rem;
+        height: 1.3rem;
+        margin-left: 0px;
+    }
+    
+    #css {
+        width: 1.3rem;
+        height: 1.3rem;
+        margin-left: 0px;
+    }
+    
+    #html {
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+    
+    .skills a {
+        display: inline-block;
+    }
+    
+    .skills {
+        position: absolute;
+        margin-top: 25rem;
+        margin-left: 15%;
+    }
+    
+    #risco {
+        width: 12rem;
+        height: 12rem;
+        margin-left: 30%;
+        margin-top: 7.5rem;
+        border-radius: 50%;
+        margin-bottom: 13rem;
+    }
+    
+    /*ABOUT*/
+    
+    .container {
+        margin-top: 1rem;
+    }
+    
+    .container h1 {
+        margin-bottom: 15rem;
+        text-align: center;
+    }
+    
+    #about {
+        display: flex;
+        text-align: justify;
+        margin-top: 20px;
+    }
+    #about img {
+        border-radius: 50%;
+        width: 12rem;
+        height: 12rem;
+        margin-left: 0px;
+        position: absolute;
+        top: 20%;
+        left: 30%;
+    }
+    #about div {
+        width: 100%;
+    }
+    
+    footer {
+        background-color: rgb(245, 245, 245);
+        margin-top: 100px;
+        padding: 17px;
+    }
+    
+    .social {
+        padding: 0.1rem;
+    }
+    
+    .social a {
+        font-size: 1.5rem;
+        border: none;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .social a:hover {
+        border: none;
+    }
+    
+    form {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+        margin-top: 7rem;
+    }
+    
+    form h1 {
+        color: orangered;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    
+    form label {
+        display: block;
+        font-size: large;
+    }
+    
+    input {
+        width: 15em;
+    }
+    
+    textarea {
+        width: 15em;
+    }
+    
+    #button {
+        display: block;
+        position: relative;
+        background-color: orangered;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        text-align: center;
+        width: 10em;
+        padding: 1em 10px;
+        margin-left: 50px;
+        border-radius: 2em;
+        cursor: pointer;
+    }
+    
+    #contact-footer {
+        margin-top: 50rem;
+    }
+    footer ul a li {
+        margin-left: 4px;
+        padding: 5px;
+    }
+    /*Skills*/
+img {
+    width: 8rem;
+    height: 8rem;
+    display: block;
+    margin-left: 8rem;
+    border-radius: 20px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.box {
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 3;
+}
+
+.skill-bar {
+    background-color: #f0f0f0;
+    border-radius: 1rem;
+    width: 250px;
+    height: 22px;
+    margin-top: 9rem;
+    margin-left: 4rem;
+    
+}
+
+.skill-progress {
+    background-color: #00ff08e4;
+    border-radius: 1rem;
+    height: 100%;
+    text-align: center;
+}
+
+#skills-heading {
+    margin-top: 1rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
 }
 
 /*Mobile*/
-@media (width <= 500px) {
+/*@media (width <= 425px) {
     body {
         background-color: red;
         font-size: 0.9rem;
@@ -637,7 +841,7 @@ img {
         margin-bottom: 117px;
     }
     
-    /*ABOUT*/
+    /*ABOUT*
     
     .container {
         margin-top: 1rem;
@@ -697,7 +901,7 @@ img {
         padding-top: 5px;
         padding-bottom: 10px;
         border-radius: 20px;
-        margin-top: 4.5rem;
+        margin-top: 10rem;
     }
     
     form h1 {
@@ -741,7 +945,7 @@ img {
         margin-left: 4px;
         padding: 5px;
     }
-    /*Skills*/
+    /*Skills*
 img {
     width: 8rem;
     height: 8rem;
@@ -789,7 +993,7 @@ img {
     text-align: center;
     margin-bottom: 10px;
 }
-}
+}*/
 
 @media (width = 425px) {
     #about img {
