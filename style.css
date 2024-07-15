@@ -573,7 +573,7 @@ img {
 }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 360px) {
     .sidebar {
         width: 100%;
     }
@@ -585,7 +585,7 @@ img {
 
     .sidebar a {
         width: 13%;
-        margin-left: 11rem;
+        margin-left: 7rem;
     }
     .intro {
         margin-top: 1.5rem;
@@ -594,8 +594,8 @@ img {
     }
     
     #hello {
-        margin-top: 15rem;
-        margin-left: 3rem;
+        margin-top: 18rem;
+        margin-left: 0rem;
     }
     
     #js {
@@ -621,15 +621,15 @@ img {
     
     .skills {
         position: absolute;
-        margin-top: 25rem;
-        margin-left: 15%;
+        margin-top: 28rem;
+        margin-left: 3%;
     }
     
     #risco {
         width: 12rem;
         height: 12rem;
-        margin-left: 30%;
-        margin-top: 7.5rem;
+        margin-left: 22%;
+        margin-top: 11rem;
         border-radius: 50%;
         margin-bottom: 13rem;
     }
@@ -656,8 +656,8 @@ img {
         height: 12rem;
         margin-left: 0px;
         position: absolute;
-        top: 20%;
-        left: 30%;
+        top: 24%;
+        left: 23%;
     }
     #about div {
         width: 100%;
@@ -689,7 +689,8 @@ img {
         padding-top: 5px;
         padding-bottom: 10px;
         border-radius: 20px;
-        margin-top: 7rem;
+        margin-top: 5rem;
+        top: 50%;
     }
     
     form h1 {
@@ -738,7 +739,7 @@ img {
     width: 8rem;
     height: 8rem;
     display: block;
-    margin-left: 8rem;
+    margin-left: 5.5rem;
     border-radius: 20px;
 }
 
@@ -765,7 +766,7 @@ img {
     width: 250px;
     height: 22px;
     margin-top: 9rem;
-    margin-left: 4rem;
+    margin-left: 2rem;
     
 }
 
