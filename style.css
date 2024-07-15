@@ -582,6 +582,7 @@ img {
 /*Mobile*/
 @media (width <= 425px) {
     body {
+        background-color: red;
         font-size: 0.9rem;
     }
 
