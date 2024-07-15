@@ -360,7 +360,7 @@ img {
     }
 }
 
-/*Tablet*
+/*Tablet*/
 @media (width <= 768px) {
     body {
         background-color: green;
@@ -419,7 +419,7 @@ img {
         margin-bottom: 117px;
     }
     
-    /*ABOUT*
+    /*ABOUT*/
     
     .container {
         margin-top: 1rem;
@@ -523,7 +523,7 @@ img {
         margin-left: 4px;
         padding: 5px;
     }
-    /*Skills*
+    /*Skills*/
 img {
     width: 8rem;
     height: 8rem;
@@ -571,8 +571,8 @@ img {
     text-align: center;
     margin-bottom: 10px;
 }
-}*/
-
+}
+/*
 @media (max-width: 360px) {
     .sidebar {
         width: 100%;
@@ -634,7 +634,7 @@ img {
         margin-bottom: 13rem;
     }
     
-    /*ABOUT*/
+    /*ABOUT*
     
     .container {
         margin-top: 1rem;
@@ -734,7 +734,7 @@ img {
         margin-left: 4px;
         padding: 5px;
     }
-    /*Skills*/
+    /*Skills*
 img {
     width: 8rem;
     height: 8rem;
@@ -994,7 +994,7 @@ img {
     text-align: center;
     margin-bottom: 10px;
 }
-}*/
+}*
 
 @media (width = 425px) {
     #about img {
