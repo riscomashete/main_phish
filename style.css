@@ -363,7 +363,6 @@ img {
 /* Tablet */
 @media (max-width: 768px) {
     body {
-        background-color: green;
         font-size: 1rem;
     }
 
@@ -576,7 +575,6 @@ img {
 /* Mobile */
 @media (max-width: 500px) {
     body {
-        background-color: red;
         font-size: 0.9rem;
     }
 
