@@ -1,7 +1,17 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
 }
 
+/* nav {
+    opacity: 90%;
+} */
+/* CSS for the blurred navbar */
+/* nav {
+    backdrop-filter: blur(5px); /* Adjust the blur radius as needed */
+    /* -webkit-backdrop-filter: blur(10px); For Safari */
+    /* background-color: rgba(255, 255, 255, 0.7); Semi-transparent background
+} */ 
 
 section{
     padding: 60xp 0;
@@ -30,7 +40,7 @@ section{
     width: 15rem;
 }
 
-.btn {
+.orr {
     background-color: orangered;
     color: white;
 }
@@ -62,21 +72,28 @@ section{
 #intro {
     padding-bottom: 20rem;
     padding-top: 4rem;
+    background-color: rgba(245, 245, 245, 0.324);
 }
 
 #skills {
-    background-color: rgba(218, 249, 255, 0.138);
+    background-color: rgba(170, 226, 237, 0.5);
+    padding-top: 4rem;
 }
 
 #about {
-    background-color: rgba(245, 239, 239, 0.079);
+    background-color: rgb(240, 238, 250);
     padding-bottom: 3.7rem;
+    padding-top: 4rem;
 }
 
 #contact {
-    background-color: aliceblue;
+    background-color: rgb(174, 215, 251);
+    padding-top: 4rem;
 }
 
+footer {
+    background-color: #f3f0f0;
+}
 
 .social {
     text-align: center;
@@ -94,6 +111,13 @@ section{
     line-height: 40px;
     display: inline-block;
     
+}
+
+.social .whatsapp {
+    color: green;
+}
+.social .linkedin {
+    color: blue;
 }
 
 .social a:hover {
@@ -116,6 +140,7 @@ footer ul a li {
     margin-left: 10px;
     padding: 10px;
 }
+
 
 @media (max-width: 425px) {
     #risco {
