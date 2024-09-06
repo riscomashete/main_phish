@@ -13,7 +13,7 @@
 <body>
 
     <!--navbar-->
-    <nav class="navbar bg-body-tertiary fixed-top">
+    <nav class="navbar bg-body-tertiary fixed-top shadow">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Risco Mashete</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -46,7 +46,7 @@
 
     
     <!--main image & intro text-->
-    <section id="intro">
+    <section id="intro" class="shadow">
         <div class="container-xxl">
             <div class="row justify-content-center align-items-center mt-5">
                 <div class="col-lg-5 text-center text-md-center mt-5">
@@ -67,7 +67,7 @@
     </section>
 
     <!--My Skills-->
-    <section id="skills" class="mt-5 pt-5 pb-5">
+    <section id="skills" class="pt-5 pb-5 shadow">
         <div class="container">
             <h2 class="text-center">My Skills</h2>
            <div class="wrapper">
@@ -114,7 +114,7 @@
 
     
     <!--About Me-->
-    <section id="about" class="pt-1">
+    <section id="about" class="pt-1 shadow">
         <div class="container-xxl">
 
             <h2 class="text-center mt-5">About Me</h2>
@@ -139,14 +139,17 @@
 
 
     <!--Contact form-->
-    <section id="contact" class="pt-1">
+    <section id="contact" class="pt-1 shadow">
         <div class="container-lg pt-5 pb-3">
             <h2 class="text-center">Get in Touch</h2>
             <p class="lead text-center">Got Questions to ask? Fill out the form to contact me directly.</p>
             <hr>
             <div class="row justify-content-center my-4">
                 <div class="col-lg-6">
-                    <form class="mb-5">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="00c09eb8-cbc7-4357-ac78-374f007f0950">
+                        <input type="hidden" name="redirect" value="contact.html">
+                        
                         <label for="name" class="form-label">Name:</label>
 
                         <div class="mb-4 input-group">
@@ -185,7 +188,7 @@
     </section>
 
 
-    <footer class="p-4">
+    <footer class="p-4 shadow">
 
         <div class="social">
             <a href="https://wa.me/+264812044266"><i class="fab fab fa-whatsapp"></i></a>
