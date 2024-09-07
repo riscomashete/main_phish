@@ -3,6 +3,10 @@ body {
     font-size: 100%;
 }
 
+.link {
+    padding-top: 1rem;
+}
+
 /* nav {
     opacity: 90%;
 } */
