@@ -25,42 +25,26 @@ section{
 .wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 2.5rem;
+    gap: 1rem;
     margin-top: 2rem;
     margin-left: 3%;
     margin-right: 3%;
 }
 
 .box {
-    border-radius: 3rem;
-    box-shadow: 0 0 20px grey;
-    padding: 1.5rem;
+    border: 1px solid rgb(203, 200, 199);
+    border-radius: 6px;
+    box-shadow: 0 0 20px rgb(35, 174, 212);
+    padding: 2rem;
     text-align: center;
     display: grid;
     grid-template-rows: subgrid;
     grid-row: span 3;
-    background: linear-gradient(185deg, blue, whitesmoke, rgb(79, 244, 79));
-    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.881);
 }
 
-.box:hover {
-    transition-duration: 1s;
-    transition-property: all;
-    /* background: rgb(243, 177, 177); */
-    scale: 1.1;
-    /* color: gainsboro; */
-    box-shadow: 0 0 20px orangered;
-}
-
-.box .container img {
-    width: 9rem;
-    background-color: whitesmoke;
-    padding: 2.5rem;
-    border-radius: 3rem;
-}
-
-h2 {
-    color: rgb(254, 81, 18);
+.box img {
+    width: 15rem;
 }
 
 .orr {
@@ -77,27 +61,22 @@ h2 {
     color: orangered;
 }
 
-#mysql {
-    padding: 3rem;
-    width: 13rem;
-}
-
 #css {
-    width: 7.5rem;
+    width: 12rem;
     margin-top: 1rem;
 }
 
 #risco {
     width: 20rem;
     height: 20rem;
-    margin-left: 60%;
+    /* margin-left: 60%;
     margin-top: 8rem;
     border-radius: 50%;
-    margin-bottom: 117px;
+    margin-bottom: 117px; */
     border: 1px solid orangered;
     padding: 1rem;
 }
-s
+
 #intro {
     padding-bottom: 20rem;
     padding-top: 4rem;
@@ -105,7 +84,7 @@ s
 }
 
 #skills {
-    background-color: rgba(242, 247, 248, 0.5);
+    background-color: rgba(170, 226, 237, 0.5);
     padding-top: 4rem;
 }
 
@@ -185,17 +164,7 @@ footer ul a li {
 @media (max-width: 375px) {
     .wrapper {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
-    #mysql {
-        width: 10rem;
-    }
-}
-
-@media (max-width: 320px) {
-    #mysql {
-        width: 7.5rem;
+        margin-left: 4%;
+        margin-right: 4%;
     }
 }
