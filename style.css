@@ -90,10 +90,10 @@ h2 {
 #risco {
     width: 20rem;
     height: 20rem;
-    /* margin-left: 60%;
+    margin-left: 60%;
     margin-top: 8rem;
     border-radius: 50%;
-    margin-bottom: 117px; */
+    margin-bottom: 117px;
     border: 1px solid orangered;
     padding: 1rem;
 }
